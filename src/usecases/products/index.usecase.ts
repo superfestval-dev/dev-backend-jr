@@ -9,12 +9,23 @@ interface Product {
   updated_at: string;
 }
 
+interface Customer {
+  nome: string;
+  email: string;
+  cpf: string;
+  membro_clube: boolean;
+}
+
 export class IndexProductsUseCase {
   constructor(private client: Knex) {}
 
-  async execute(): Promise<Product[]> {
-    const products = await this.client.select().from<Product>("produtos");
+  async index(): Promise<Product[]> {
+    // list all products
+    return [];
+  }
 
-    return products;
+  async findPromotionalPriceByUserId(customerId: number): Promise<Product[]> {
+    // list all club products by user id
+    return [];
   }
 }

@@ -1,4 +1,4 @@
-import { IndexCustomersUseCase } from "../../usecases/Customers/index.usecase";
+import { IndexCustomersUseCase } from "../../usecases/customers/index.usecase";
 import { Request, Response } from "express";
 
 export class IndexCustomersController {
