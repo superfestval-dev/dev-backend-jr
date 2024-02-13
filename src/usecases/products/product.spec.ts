@@ -8,7 +8,7 @@ describe("IndexProducstUseCase", () => {
     const productUseCase = new IndexProductsUseCase(client);
     const products = await productUseCase.index();
 
-    expect(products).toHaveLength(products.length);
+    expect(products.length).toBe(6);
   });
 
   it("should be able to list all products with a promotional price by user id", async () => {
