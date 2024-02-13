@@ -9,6 +9,6 @@ describe("IndexCustomerUseCase", () => {
     const customerUseCase = new IndexCustomersUseCase(client);
     const customers = await customerUseCase.execute();
 
-    expect(customers).toHaveLength(customers.length);
+    expect(customers.length).toBe(4);
   });
 });
