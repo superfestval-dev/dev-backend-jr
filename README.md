@@ -1,26 +1,53 @@
-Responsabilidades:
+## Teste técnico - Desenvolvedor back-end jr
 
-Desenvolver aplicações fullstack utilizando Node.js para o desenvolvimento back-end.
-Trabalhar com bancos de dados relacionais, com ênfase em Oracle DB.
-Utilizar a linguagem JavaScript, com a possibilidade de empregar TypeScript.
-Desenvolver e integrar APIs REST.
-Aplicar padrões de desenvolvimento seguindo os princípios SOLID.
-Utilizar programação orientada a objetos para criar soluções eficientes e modularizadas.
-Realizar deploy de aplicações Node.js, garantindo a eficácia e estabilidade das mesmas.
-Demonstrar conhecimentos básicos no uso de servidores Linux.
+Olá, candidato(a)! Estamos em busca de um(a) desenvolvedor(a) back-end para enfrentar um desafio técnico empolgante em nossa equipe. Neste desafio, você terá a oportunidade de demonstrar suas habilidades em JavaScript e mostrar seu conhecimento em desenvolvimento de APIs.
 
-Requisitos:
+### Índice
+  - [Atividades do Desafio](#atividades-do-desafio)
 
-Experiência em desenvolvimento back-end utilizando Node.js.
-Familiaridade com bancos de dados relacionais, preferencialmente Oracle DB.
-Conhecimento sólido em JavaScript, com preferência pelo uso de TypeScript.
-Experiência em desenvolvimento e integração de APIs REST.
-Comprometimento com padrões de desenvolvimento seguindo os princípios SOLID.
-Proficiência em programação orientada a objetos.
-Conhecimentos básicos em deploy de aplicações Node.js.
-Familiaridade com o uso de servidores Linux.
-Diferenciais:
+  - [Para rodar o projeto](#para-rodar-o-projeto)
 
-Conhecimentos básicos em desenvolvimento front-end utilizando React.js.
-Experiência com Next.js para aprimorar o desenvolvimento front-end.
-Experiência em deploy de aplicações React.js.
+  - [Licenças](#para-rodar-o-projeto)
+
+### Atividades do Desafio
+
+1. Listar todos os produtos: Você precisará implementar uma rota que retorne todos os produtos disponíveis em nossa base de dados. Utilize suas habilidades em manipulação de dados para apresentar os produtos de forma clara e organizada.
+2. Listar produtos promocionais para membros do clube: Nesta atividade, você deverá criar uma rota que liste os produtos promocionais disponíveis exclusivamente para os clientes que possuem o clube de membros. Certifique-se de implementar a lógica necessária para validar a elegibilidade dos clientes.
+3. Criar um job de integração com API de produtos usando cron job: Aqui está um desafio adicional! Você será responsável por criar um job que será executado periodicamente e realizará a integração com uma API externa de produtos. Utilize cron job para agendar a execução e manipule os dados recebidos da API de maneira adequada.
+
+### Para rodar o projeto
+
+- Instale as dependências do projeto:
+
+```shell
+  npm install
+```
+- Defina as variáveis de ambiente:
+
+```env
+  PORT=3333
+```
+
+- Inicie o servidor:
+
+```shell
+  npm run dev
+```
+
+- Inicie o servidor de api:
+
+```shell
+  npx json-server --watch server.json
+```
+
+### Conect-se conosco
+
+[Instagram](https://www.instagram.com/festvalcuritiba)
+
+[X - Twitter](https://twitter.com/festvalcuritiba)
+
+[E-mail](mailto:desenvolviemento.ti@superfestval.com)
+
+# Licences 
+
+[MIT](https://opensource.org/license/mit/)
